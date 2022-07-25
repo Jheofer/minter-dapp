@@ -327,12 +327,11 @@ section {
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
-  max-height: 1000;
 }
 
 .splide__slide img {
   width: 100%;
-  height: 100%;
+  height: 1000%;
 }
 
 /* SPINNER */
