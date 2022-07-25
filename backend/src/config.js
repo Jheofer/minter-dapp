@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Mecha Prototype";
-const description = "Choose your Mecha suite, choose your future and change your destiny!";
+const description = "Select your Mecha suite, choose your future and change your destiny!";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -39,7 +39,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "airitech-industries.eth", // Replace with your website or remove this line if you do not have one.
+  external_url: "airitech-industries.netlify.app", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
