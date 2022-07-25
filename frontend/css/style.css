@@ -35,8 +35,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 80px;
-  max-height: 450;
+  max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -328,6 +327,7 @@ section {
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
+  max-height: 1000;
 }
 
 .splide__slide img {
