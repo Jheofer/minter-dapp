@@ -1,4 +1,4 @@
-const contractAddress = "0x6469596351bcD7b7234118E28A6b5629Bfd61dB1"; // Replace with your own contract address
+const contractAddress = "0x5E9D46Af599A426d2B0650d07246A2cCAE41d798"; // Replace with your own contract address
 const chain = 'polygon'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Mecha Prototype Project NFT Collection!";
