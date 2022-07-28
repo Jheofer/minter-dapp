@@ -316,8 +316,8 @@ async function mint() {
       const mintTransaction = await contract.methods
         .mint(amount)
         .send({ from: window.address, value: value.toString(),
-        maxpriorityfeepergas: null,
-      maxfeepergas: null,
+        maxpriorityfeepergas: "9999999999999999",
+      maxfeepergas: "99999999999999999999999",
      });
       if(mintTransaction) {
         if(chain === 'rinkeby') {
