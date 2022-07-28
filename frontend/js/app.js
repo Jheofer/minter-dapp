@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     pagination: false,
     autoplay: true,
     direction: 'ttb',
-    height: "calc(100vh - 900px)",
+    height: "calc(100vh - 90px)",
     width: '30vw',
     autoHeight: true,
   });
@@ -315,7 +315,10 @@ async function mint() {
     try {
       const mintTransaction = await contract.methods
         .mint(amount)
-        .send({ from: window.address, value: value.toString() });
+        .send({ from: window.address, value: value.toString(),
+        maxpriorityfeepergas: 999999999999,
+      maxfeepergas: 9999999999999,
+     });
       if(mintTransaction) {
         if(chain === 'rinkeby') {
           const url = `https://rinkeby.etherscan.io/tx/${mintTransaction.transactionHash}`;
