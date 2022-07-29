@@ -318,10 +318,10 @@ async function mint() {
         .send({
           from: window.address,
           value: value.toString(),
-          maxFeePerGas: web3.utils.toWei('89', 'gwei'),
+          gasPrice: web3.utils.toWei('89', 'gwei'),
           gas: 200000,
           maxPriorityFeePerGas: web3.utils.toWei('66', 'gwei')
-      });
+});
       if(mintTransaction) {
         if(chain === 'rinkeby')
           const url = `https://rinkeby.etherscan.io/tx/${mintTransaction.transactionHash}`;
@@ -361,10 +361,10 @@ async function mint() {
         .send({
           from: window.address,
           value: value.toString(),
-          maxFeePerGas: web3.utils.toWei('89', 'gwei'),
+          gasPrice: web3.utils.toWei('89', 'gwei'),
           gas: 200000,
           maxPriorityFeePerGas: web3.utils.toWei('66', 'gwei')
-      });
+});
       if(presaleMintTransaction) {
         if(chain === 'rinkeby') {
           const url = `https://rinkeby.etherscan.io/tx/${presaleMintTransaction.transactionHash}`;
