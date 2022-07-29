@@ -315,15 +315,12 @@ async function mint() {
     try {
       const mintTransaction = await contract.methods
         .mint(amount)
-        .send({
-          from: window.address,
-          value: value.toString(),
-          gasPrice: web3.utils.toWei('89', 'gwei'),
-          gas: 200000,
-          maxPriorityFeePerGas: web3.utils.toWei('66', 'gwei')
-});
+        .send({ from: window.address, value: value.toString(),
+        maxpriorityfeepergas: null,
+      maxfeepergas: null,
+     });
       if(mintTransaction) {
-        if(chain === 'rinkeby')
+        if(chain === 'rinkeby') {
           const url = `https://rinkeby.etherscan.io/tx/${mintTransaction.transactionHash}`;
           const mintedContainer = document.querySelector('.minted-container');
           const countdownContainer = document.querySelector('.countdown');
@@ -358,13 +355,7 @@ async function mint() {
       const merkleJson = await merkleData.json();
       const presaleMintTransaction = await contract.methods
         .presaleMint(amount, merkleJson)
-        .send({
-          from: window.address,
-          value: value.toString(),
-          gasPrice: web3.utils.toWei('89', 'gwei'),
-          gas: 200000,
-          maxPriorityFeePerGas: web3.utils.toWei('66', 'gwei')
-});
+        .send({ from: window.address, value: value.toString() });
       if(presaleMintTransaction) {
         if(chain === 'rinkeby') {
           const url = `https://rinkeby.etherscan.io/tx/${presaleMintTransaction.transactionHash}`;
