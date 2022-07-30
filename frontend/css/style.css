@@ -317,7 +317,7 @@ section {
 /* SLIDDER */
 
 .splide {
-  position: relative;
+  position: static;
   top: 90px;
   bottom: 500px;
   left: 5rem;
