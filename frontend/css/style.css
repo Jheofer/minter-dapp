@@ -231,7 +231,7 @@ section {
 /* MINT CONTAINER */
 
 .mint-container {
-  width: 75%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -317,7 +317,7 @@ section {
 /* SLIDDER */
 
 .splide {
-  position: absolute;
+  position: relative;
   top: 90px;
   bottom: 500px;
   left: 5rem;
