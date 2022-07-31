@@ -232,13 +232,13 @@ section {
 
 .mint-container {
   width: 100%;
-  display: block;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
 }
 
 .info-container {
-  display: block;
+  display: inline-block;
   justify-content: space-between;
   width: 100%;
   text-align: center;
