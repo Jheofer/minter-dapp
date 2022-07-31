@@ -10,9 +10,9 @@
   --font-code: "Roboto", monospace;
   --bg-color: #000000;
   --bg-color-transparent: #1600008a;
-  --font-color: #00b30f;
-  --btn-bg-color: #06081d8c;
-  --accent-color: #e916169d;
+  --font-color: #ffffff;
+  --btn-bg-color: #151a63;
+  --accent-color: #1c7414;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -63,7 +63,7 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
-  align-items: bottom;
+  align-items: center;
   height: 100%;
   text-align: center;
   margin: 0 auto 0 35vw;
@@ -320,7 +320,7 @@ section {
   position: absolute;
   top: 90px;
   bottom: 500px;
-  left: 0;
+  left: 5rem;
   z-index: -1;
 }
 
