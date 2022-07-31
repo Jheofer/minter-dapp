@@ -63,7 +63,7 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
-  align-items: center;
+  align-items: bottom;
   height: 100%;
   text-align: center;
   margin: 0 auto 0 35vw;
