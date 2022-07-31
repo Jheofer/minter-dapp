@@ -318,7 +318,7 @@ section {
 
 .splide {
   position: sticky;
-  top: 90px;
+  top: 10px;
   bottom: 500px;
   left: 5rem;
   z-index: -1;
