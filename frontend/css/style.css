@@ -343,6 +343,11 @@ section {
   transform: translate(-50%, -50%) scale(3);
 }
 
+/* container*/
+.container {
+  position: relative;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
