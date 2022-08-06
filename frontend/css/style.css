@@ -352,21 +352,9 @@ section {
 
 @media screen and (max-width: 768px) {
   .menu {
-    gap: 1rem;
-  }
-
-  @media (min-width: 320px) and (max-width: 999px) {
-
-    // Mobile and tablet CSS
-  
+    gap: .5rem;
   }
   
-  @media (min-width: 1000px) {
-  
-    // Laptop/desktop CSS
-  
-  }
-
   .wallet-btn {
     margin-left: 0;
     padding: 0.5rem 1rem;
