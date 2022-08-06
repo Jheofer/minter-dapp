@@ -316,11 +316,11 @@ section {
 
 /* SLIDDER */
 
-.slide {
+.splide {
   position: absolute;
   top: 90px;
   bottom: 500px;
-  left: 0;
+  left: 2;
   z-index: -1;
 }
 
