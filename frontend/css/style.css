@@ -346,6 +346,7 @@ section {
 /* container*/
 .container {
   position: relative;
+  position: right;
 }
 
 /* MEDIA QUERIES */
