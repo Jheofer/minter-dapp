@@ -38,7 +38,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
-  justify-content: center;
+  justify-content: right;
   overflow: hidden;
 }
 
@@ -319,7 +319,7 @@ section {
 .splide {
   position: absolute;
   top: 90px;
-  bottom: 5000000px;
+  bottom: 500px;
   width: 50px;
   left: 0;
   z-index: -1;
