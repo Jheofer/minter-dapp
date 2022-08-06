@@ -319,9 +319,8 @@ section {
 .splide {
   position: absolute;
   top: 90px;
-  bottom: auto;
+  bottom: 5000000px;
   width: 50px;
-  height: max-content;
   left: 0;
   z-index: -1;
 }
@@ -351,7 +350,7 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 768px) {
   .menu {
     gap: 1rem;
   }
