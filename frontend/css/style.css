@@ -330,13 +330,13 @@ section {
 }
 
 .splide__slide img {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /* SPINNER */
 .dot-spin {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(3);
