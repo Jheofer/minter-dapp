@@ -34,11 +34,11 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   max-width: 960px;
   margin: 0 auto;
-  padding: 1rem 2rem;
-  justify-content: right;
+  padding: 1rem 1rem;
+  justify-content: center;
   overflow: hidden;
 }
 
