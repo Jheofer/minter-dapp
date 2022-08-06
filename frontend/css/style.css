@@ -317,7 +317,7 @@ section {
 /* SLIDDER */
 
 .splide {
-  position: left;
+  position: absolute;
   top: 90px;
   bottom: 500px;
   left: 0;
@@ -326,7 +326,7 @@ section {
 
 .splide__slide {
   border: var(--accent-color) solid;
-  border-width: 5px 10px;
+  border-width: 2.5px 5px;
 }
 
 .splide__slide img {
