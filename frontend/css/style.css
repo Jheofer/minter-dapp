@@ -320,6 +320,7 @@ section {
   position: absolute;
   top: 90px;
   bottom: 500px;
+  height: fit-content;
   width: 50px;
   left: 0;
   z-index: -1;
@@ -346,7 +347,6 @@ section {
 /* container*/
 .container {
   position: relative;
-  right: auto;
 }
 
 /* MEDIA QUERIES */
