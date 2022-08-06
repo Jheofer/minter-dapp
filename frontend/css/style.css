@@ -320,7 +320,7 @@ section {
   position: absolute;
   top: 90px;
   bottom: 500px;
-  left: 20;
+  left: 0;
   z-index: -1;
 }
 
