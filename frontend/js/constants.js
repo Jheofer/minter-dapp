@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Mecha Prototype Project!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Mecha Prototype Project NFT Collection is a NFT project that will evolve into a fully immersive metaverse game.';
+const welcome_p = 'MPP is a NFT project evolving into a fully immersive metaverse game.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Forging Open!!";
 const h1_public_mint = "Public Forging Open!!";
