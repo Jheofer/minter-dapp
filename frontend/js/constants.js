@@ -1,7 +1,7 @@
 const contractAddress = "0x5E9D46Af599A426d2B0650d07246A2cCAE41d798"; // Replace with your own contract address
 const chain = 'polygon'; // rinkeby, polygon, or ethereum
 
-const welcome_h3 = "Welcome to the Mecha Prototype Project NFT Collection!";
+const welcome_h1 = "Welcome to the Mecha Prototype Project NFT Collection!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'The Mecha Prototype Project NFT Collection is a NFT project that will evolve into a fully immersive metaverse game.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
