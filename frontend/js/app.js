@@ -28,10 +28,10 @@ window.addEventListener("DOMContentLoaded", async () => {
     type: "loop",
     arrows: false,
     perMove: 3,
-    pagination: true,
+    pagination: false,
     autoplay: true,
     direction: 'ttb',
-    height: "calc(1000vh - 90px)",
+    height: "calc(500vh - 90px)",
     width: '30vw',
     autoHeight: true,
   });
