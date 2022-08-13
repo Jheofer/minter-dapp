@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     type: "loop",
     arrows: false,
     perMove: 3,
-    pagination: false,
+    pagination: true,
     autoplay: true,
     direction: 'ttb',
     height: "calc(1000vh - 90px)",
