@@ -31,9 +31,9 @@ window.addEventListener("DOMContentLoaded", async () => {
     pagination: false,
     autoplay: true,
     direction: 'ttb',
-    height: "calc(10000000vh - 90px)",
+    height: "calc(1000vh - 90px)",
     width: '30vw',
-    autoHeight: false,
+    autoHeight: true,
   });
   splide.mount();
 
