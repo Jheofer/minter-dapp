@@ -279,7 +279,7 @@ section {
   user-select: none;
 }
 
-.total-price-container {
+.total-price-container {s
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -287,7 +287,7 @@ section {
 }
 
 .total-price-container p {
-  color: var(--accent-color);
+  color: var(#06081d8c);
 }
 
 /* MINTED CONTAINER */
