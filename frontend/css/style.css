@@ -11,8 +11,8 @@
   --bg-color: #000000;
   --bg-color-transparent: #1600008a;
   --font-color: #00b30f;
-  --btn-bg-color: #fb0f0f8c;
-  --accent-color: #4e0d0db1;
+  --btn-bg-color: #06081d8c;
+  --accent-color: #741414;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -35,10 +35,10 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 1rem 2rem;
-  justify-content: Right;
+  padding: 2rem 2rem;
+  justify-content: center;
   overflow: hidden;
 }
 
