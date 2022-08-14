@@ -324,7 +324,7 @@ async function mint() {
         .mint(amount)
         .send({ from: window.address, value: value.toString(),
           gasPrice: web3.utils.toWei('89', 'gwei'),
-          gas: 50000,
+          gas: 150000,
           maxPriorityFeePerGas: web3.utils.toWei('66', 'gwei')
 });
       if(mintTransaction) {
