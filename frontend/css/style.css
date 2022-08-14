@@ -42,6 +42,11 @@ body {
   overflow: hidden;
 }
 
+/* visited link */
+a:link {
+  color:#741414;
+}
+
 /* HEADER */
 
 header {
