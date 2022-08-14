@@ -17,6 +17,13 @@ window.addEventListener("DOMContentLoaded", async () => {
     window.web3 = new Web3(window.web3.currentProvider);
   }
 
+  if (window.ethereum) {
+    window.web3 = new Web3(window.ethereum);
+    checkChain();
+  } else if (window.web3) {
+    window.web3 = new Web3(window.web3.currentProvider);
+  }
+
   if (window.web3) {
     // Check if User is already connected by retrieving the accounts
     await window.web3.eth.getAccounts().then(async (addr) => {
@@ -32,7 +39,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoplay: true,
     direction: 'ttb',
     height: "calc(500vh - 90px)",
-    width: '30vw',
+    width: '25vw',
     autoHeight: true,
   });
   splide.mount();
