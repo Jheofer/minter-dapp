@@ -46,7 +46,18 @@ body {
 a:link {
   color:#741414;
 }
-
+/* unvisited link */
+a:link {
+  color:#741414;
+}
+/* mouse over link */
+a:link {
+  color:#741414;
+}
+/* selected link */
+a:link {
+  color:#741414;
+}
 /* HEADER */
 
 header {
